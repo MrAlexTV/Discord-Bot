@@ -6,7 +6,7 @@ const bot = new Discord.Client();
 const ytdl = require("ytdl-core");
  
 const prefix  = '!'
-const token = 'NjE1ODY3MjMxMDE5OTkxMDY2.XWURiA.B_DCb7xbgPYbdI9ZI-Kyp3L28CA'
+
  
 var queue = new Map();
  
@@ -161,4 +161,4 @@ function playSong(guild, song) {
 }
  
  
-client.login(process.env.token);
+client.login(process.env.BOT_TOKEN);
